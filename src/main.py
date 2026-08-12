@@ -1,0 +1,8 @@
+print("================================")
+print("       PROJETO-EPI")
+print("================================")
+print("Sistema de identificação de EPI")
+print("Projeto desenvolvido por Luis Felipe")
+print("IFG")
+print()
+print("Sistema iniciado com sucesso!")
