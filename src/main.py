@@ -1,8 +1,15 @@
+from PIL import Image
+
+# Caminho da imagem de teste
+caminho = "data/images/teste.jpg"
+
+# Abre a imagem
+imagem = Image.open(caminho)
+
+# Mostra algumas informações
 print("================================")
-print("       PROJETO-EPI")
+print("          PROJETO-EPI")
 print("================================")
-print("Sistema de identificação de EPI")
-print("Projeto desenvolvido por Luis Felipe")
-print("IFG")
-print()
-print("Sistema iniciado com sucesso!")
+print(f"Imagem: {caminho}")
+print(f"Tamanho: {imagem.size}")
+print("Imagem carregada com sucesso!")
