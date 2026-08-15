@@ -22,6 +22,15 @@ def main():
 
                                                                 verificar_epi(epis_detectados)
 
+def analisar_imagem(caminho_imagem):
+    """
+    Ponto de entrada para a análise da imagem.
+    
+    Futuramente, esta função receberá o resultado
+    de um modelo de visão computacional especializado em EPI.
+    """
 
-                                                                if __name__ == "__main__":
+    print(f"Imagem selecionada: {caminho_imagem}")
+    print("Análise de EPI ainda não conectada ao modelo de IA.")
+                   .                                             if __name__ == "__main__":
                                                                     main()
