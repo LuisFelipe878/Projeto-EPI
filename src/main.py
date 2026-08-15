@@ -21,7 +21,7 @@ def main():
                                                             ]
 
                                                                 verificar_epi(epis_detectados)
-
+analisar_imagem("teste_epi.jpg")
 def analisar_imagem(caminho_imagem):
     """
     Ponto de entrada para a análise da imagem.
