@@ -7,8 +7,8 @@ EPIS = [
         "colete",
             "oculos",
                 "luvas",
-                    "botas",
-                        "mascara"
+                    "botas"
+                
                         ]
 
                         CLASSE_PESSOA = "pessoa"
