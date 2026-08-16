@@ -1,29 +1,11 @@
-# Classes de Equipamentos de Proteção Individual
 # Projeto-EPI
-# Desenvolvido por Luis Felipe - IFG
+# Classes e categorias de Equipamentos de Proteção Individual
+
 
 EPIS = [
-    "capacete",
-        "colete",
-            "oculos",
-                "luvas",
-                    "botas"
-                
-                        ]
-
-                        CLASSE_PESSOA = "pessoa"
+    "helmet",
+    "vest"
+]
 
 
-                        def listar_classes():
-                            """Retorna todas as classes que o Projeto-EPI deverá identificar."""
-                                return [CLASSE_PESSOA] + EPIS
-
-
-                                if __name__ == "__main__":
-                                    print("================================")
-                                        print("          PROJETO-EPI")
-                                            print("================================")
-                                                print("Classes de detecção:")
-                                                    
-                                                        for classe in listar_classes():
-                                                                print(f"- {classe}")
+CLASSE_PESSOA = "pessoa"
