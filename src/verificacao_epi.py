@@ -1,20 +1,28 @@
-# Verificação de Equipamentos de Proteção Individual
 # Projeto-EPI
+# Sistema de verificação dos equipamentos de proteção
 
-from classes_epi import EPIS
 
+def verificar_epi(epis_detectados):
 
-def verificar_epi(epi_detectados):
-    """
-        Verifica quais EPIs foram detectados.
-            """
+    print("\n================================")
+    print("       VERIFICAÇÃO DE EPI")
+    print("================================")
 
-                print("================================")
-                    print("       VERIFICAÇÃO DE EPI")
-                        print("================================")
+    if not epis_detectados:
+        print("Nenhum EPI foi identificado.")
+        return
 
-                            for epi in EPIS:
-                                    if epi in epi_detectados:
-                                                print(f"✅ {epi}: DETECTADO")
-                                                        else:
-                                                                    print(f"❌ {epi}: NÃO DETECTADO")
+    print("EPIs identificados:")
+
+    for epi in epis_detectados:
+
+        if epi == "helmet":
+            print("✓ Capacete")
+
+        elif epi == "vest":
+            print("✓ Colete")
+
+        else:
+            print(f"✓ {epi}")
+
+    print("================================")
